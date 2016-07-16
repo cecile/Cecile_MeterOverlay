@@ -1,0 +1,8 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Include file="utils\load_utils.xml"/>
+	<Script file="datatext.lua"/>
+	<Script file="meter.lua"/>
+	<Script file="encounters.lua"/>
+	<Include file="integration\load_integration.xml"/>
+	<Include file="meters\load_meters.xml"/>
+</Ui>
