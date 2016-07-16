@@ -62,6 +62,8 @@ You could right click on the datatext to pop up the configuration tool, alternat
 #Created By:
 
 [Cecile](https://github.com/cecile) - Zul'jin - EU
+
 Details! support by [shadowphoenix](https://github.com/shadowphoenix)
+
 Numeration support by [ckaotik](https://github.com/ckaotik)
 
