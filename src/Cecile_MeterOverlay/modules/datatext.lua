@@ -353,6 +353,20 @@ end
 --format the tooltip
 function mod:FormatTooltip(tooltip)
 
+	tooltip:SetBackdrop({
+		bgFile = nil,
+		edgeFile = nil,
+		tile = false,
+		edgeSize = 0,
+		tileSize = 0,
+		insets = {
+			left = 0,
+			top = 0,
+			right = 0,
+			bottom = 0,
+		}
+	});
+
 	--go trought the lines
 	local textline;
 	for i = 1,tooltip:NumLines() do
