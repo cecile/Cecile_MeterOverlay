@@ -386,7 +386,7 @@ function mod:OnInitialize()
 	mod.meter = Engine.AddOn:GetModule("meter")
 
 	--create datatext frame
-	mod.frame = CreateFrame("Frame", nil, UIParent)
+	mod.frame = CreateFrame("Frame", nil, UIParent, BackdropTemplateMixin and "BackdropTemplate")
 	local frame = mod.frame
 
 	-- The main frame.
